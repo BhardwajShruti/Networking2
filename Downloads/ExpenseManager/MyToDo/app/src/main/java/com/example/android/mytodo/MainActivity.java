@@ -195,6 +195,7 @@ builder.setView(view);
         }
         else if(id==R.id.feedback){
 //hello'
+            //kllggit add -Agit commit -m "first commit"
             Intent feedback = new Intent();
             feedback.setAction(Intent.ACTION_SENDTO);
             feedback.setData(Uri.parse("mailto:"));
